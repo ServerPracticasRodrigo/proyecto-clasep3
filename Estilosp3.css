@@ -1,0 +1,319 @@
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* primera pagina */
+
+ .bt3:hover {
+    background: rgb(34, 120, 160);
+}
+ .bt4:hover {
+    background: rgb(34, 120, 160);
+}
+
+
+.bt6:hover:hover {
+    background: rgb(34, 120, 160);
+}
+
+.boton:hover {
+    background:rgb(197, 193, 186);
+}
+
+.boton_encabezado:hover {
+    background:rgb(197, 193, 186);
+}
+
+.encabezado {
+    background-color: rgb(2, 2, 2) ;
+    display: flex;
+    background-size: cover;
+    padding: 7px;
+    
+}
+
+.encabezado_2 {
+    background: url(./imagen-encabezado.jpg);
+    display: flex;
+    background-size:100%;
+    padding: 40px;
+    
+    
+}
+
+nav {
+    background-color: rgb(9, 75, 75);
+    height: 60px;
+    
+}
+
+.contenido_quienes_somos {
+    background-color: cornflowerblue;
+    font-size: 18px;
+    width: 500px;
+    height: 110px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.img {
+    position: relative;
+    padding: 20px;
+    margin:start;
+    top: 10px;
+    margin-top: -40px;
+      
+}
+ 
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(240, 237, 234) ;
+    background-size:cover;
+    background-position: center center;
+    height: 700px;
+}
+
+
+
+.piepagina {
+    background-color: rgb(2, 2, 2) ;
+    display: flex;
+    background-size: cover;
+    padding: 30px;
+}
+
+.textpp {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 280px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hsla(0, 14%, 93%, 0.945);
+}
+
+.logo {
+    align-items: start;
+    text-align: start;
+    width: 140px;
+    height: 100px;
+}
+
+
+
+
+.boton {
+    background-color: rgb(249, 250, 249);
+    color:black;
+    border: none;
+    font-size:1.0em;
+    margin: 10px;
+    padding: 12px 20px;
+    text-align:center;
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+   
+}
+
+.boton_encabezado {
+    background-color: rgb(249, 250, 249);
+    color:black;
+    border: none;
+    font-size:1.0em;
+    margin: 10px;
+    padding: 6px 20px;
+    text-align:center;
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-inline: 1160px -1150px;
+    
+}
+
+
+.text {
+    font-size: 45px;
+    padding-left: 555px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hsla(0, 13%, 6%, 0.945);
+    
+}
+
+
+/*Pagina catalogo */
+
+
+
+/* Pagina administrador*/
+
+.perfil_admin {
+    position: relative;
+    padding: 20px;
+    margin:start;
+    top: 10px;
+    margin-top: -40px;
+}
+
+/* pagina 2 iniciar sesion .....................................................................*/
+
+.formularios {
+    background: rgb(20, 134, 71);
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.text23 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.seleccionp1 {
+    font-size: 16px;
+}
+
+
+.boton_ejecucion {
+    font-size: 17px;
+    top: 50px;
+    width: 240px;
+    height: 35px;
+    color: rgb(6, 6, 8);
+    background-color: rgb(14, 89, 92);
+    justify-content: center;
+   
+
+}
+
+
+input {
+    height: 18px;
+}
+
+.validacion {
+    height: 26px;
+    
+}
+
+
+
+.portada {
+    font-size: 50px;
+}
+
+/*  pagina 3 .................................................................................. */
+
+
+
+
+h2 {
+    font-size: 20px;
+    color: rgb(58, 9, 9);
+    text-align: center;
+}
+
+
+
+/*  pagina 4 ................................................................ */
+
+
+
+#textpantallaf6 {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+.text4 {
+    font-size: 12px;
+}
+
+/* parte  slider*/
+
+.carrusel_contenedor{
+    width: 880px;
+    margin:10px auto ;
+
+}
+
+.carrusel_anterior,
+.carrusel_siguiente{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: none;
+    top: 75%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: black;
+    color: rgb(238, 236, 236);
+    opacity: 90%;
+}
+.carrusel_anterior:hover,
+.carrusel_siguiente:hover{
+    opacity: 100%;
+    background: rgb(19, 105, 19);
+}
+.carrusel_anterior{
+    left: 25px;
+}
+.carrusel_siguiente{
+    right: 25px;
+}
+.carrusel_lista{
+    overflow: hidden;
+}
+.carrusel_elemento{
+    text-align: center;
+    margin: 0px;
+}
+.carrusel-indicadores .glider-dot{
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 20px;
+    height: 20px;
+    opacity: 90%;
+    border-radius: 25%;
+}
+.carrusel-indicadores .glider-dot:hover{
+    background: rgb(14, 233, 233);
+}
+
+
+/* validaciones   */
+
+::placeholder {
+    color: rgb(12, 11, 11);;
+}
+
+
+.validacion:invalid {
+    border: 2.5px solid rgb(194, 14, 14);
+    outline: 0;
+    
+}
+
+
+.validacion:valid {
+    background-color: chartreuse;
+    outline: 0;
+}

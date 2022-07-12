@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.css">
+
+    <link rel="stylesheet" href="Estilosp3.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header >
+        <div class="encabezado">
+            <input type="submit" class="boton_encabezado" id="IniciarSesion" value="Iniciar Sesion" onclick="IniciarSesion()" >
+            <input type="submit" class="boton_encabezado" id="Registrarte" value="Registrarse" onclick="Registrarte()" >
+        </div>
+
+    </header>
+    <div>
+        <div class="encabezado_2">
+            <img src="logo2.jpg"  class="logo" width="80" height="55">
+            <h1 class="text">Veterinaria El Refugio</h1>
+        </div>
+       
+    </div>
+
+    <nav>
+        <input type="submit" class="boton" id="Registrarte" value="Inicio" onclick="Inicio()" >
+        <input type="submit" class="boton" id="Registrarte" value="Catalogo" onclick="Catalogo()" >
+        <input type="submit" class="boton" id="Registrarte" value="Contacto" onclick="Contacto()" >
+        <input type="submit" class="boton" id="Registrarte" value="¿Quienes somos?" onclick="QuienesSomos()" >
+        
+    </nav><br><br><br>
+
+    <h1>contactanos </h1>
+
+ 
+            <header class="formularios">
+                <h1>Genera una cita</h1><br>
+                <label class="text23">Nombre</label><br>
+                <input class="validacion"  minlength="10" maxlength="15" required spellcheck="true" type="text" size="25" ><br><br>    
+                <label class="text23">Mascota:</label>  <select name="Nombre_mascota" id="NombreM"><br><br>
+                    <option value="m1" selected>Ninguno</option>
+                    <option value="m2">Perro</option>
+                    <option value="m3">Gato</option>
+                    </select>
+                    <br><br>
+                 <label class="text23">Elige su servicio:</label>   <select name="servicio" id="Nombre_serv">
+                                <option value="s1" selected>Ninguno</option>
+                                <option value="s2">Baño</option>
+                                <option value="s3">Vacuna</option>
+                                </select>
+                  <br><br>
+                
+                <label class="text23">Agenda tu cita:</label> <input type="date" name="fecha" id="NomFec" ><br><br>
+                <input type="submit" class="boton_ejecucion" id="generando" value="Generar" onclick="Generando()" ><br>
+                <div id="textpantallaf6"></div>
+            </header><br><br>
+            
+
+
+
+    <footer class="piepagina">
+        <label class="textpp">La Veterinaria El Refugio nace tras muchos años de experiencia, calidad y formacion para ofrecer<br>
+                            el mejor ofreciendo el mejor servicio a la salud y bienestar de tu mascota
+        </label>
+    </footer>
+
+
+
+
+</body>
+</html>
